@@ -49,7 +49,7 @@ OK! I just saw the 'Sourcing parts' page on the Highway docs. I literally found 
 * [XIAO RP2040](https://www.aliexpress.us/item/3256807240972277.html): $7.49
 * [2" SPI LCD Display](https://www.aliexpress.us/item/3256808536058388.html): $8.21
 * [Momentary Push Buttons (black)](https://www.aliexpress.us/item/3256804444014370.html): $2.00
-* [Limit Switches(without handle)](https://www.aliexpress.us/item/3256805965729300.html): $1.34
+* [Limit Switches (with handle)](https://www.aliexpress.us/item/3256805965729300.html): $1.34
 * [Buzzer](https://www.aliexpress.us/item/3256802480381355.html): $2.17
 * [Solder](https://pyrodrone.com/products/tbs-solder-spool-100g): $10.99
 * New Total: $32.20
