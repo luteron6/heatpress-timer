@@ -28,6 +28,7 @@ I also researched some parts, mostly on Amazon. Here's what I've found:
 * [Momentary Buttons](https://www.amazon.com/Gebildet-250VAC-Prewired-Momentary-Railway/dp/B083JWJPW5/): $7.99
 * Total Estimated Costs: $51.64
 I also created this repo for my journal any other files. Furthermore, I tried to draw up a rough schematic for the timer:
+
 ![IMG_1361](https://github.com/user-attachments/assets/3e9e7e71-966d-4c20-bfd8-45f18f30369a)
 
 ## Day 2 - 5/20/2025 - 11:28 AM (3 hours)
