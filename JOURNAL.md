@@ -9,6 +9,7 @@ created_at: "2025-05-19"
 Made by: @luteron6
 
 Total hours so far: 5.5
+
 Estimated Cost: $21.21
 
 I have a heat press that I use to transfer DTF transfers. It's basically two pieces of metal that clamp down together. The top half heats up really hot to activate the transfer's adhesive backing. The only problem is that the DTF transfer needs a specific time in the heat press, and we haven't had a good solution to tracking that time. This project is an attempt to solve that problem.
