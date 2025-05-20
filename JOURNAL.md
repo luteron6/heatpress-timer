@@ -2,13 +2,14 @@
 title: "Heat Press Timer"
 author: "@luteron6"
 description: "An automatic timer for a heat press. No more phone stopwatches!"
-created_at: "2025-05-20"
+created_at: "2025-05-19"
 ---
 
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 5
+Total hours so far: 5.5
+Estimated Cost: $21.21
 
 I have a heat press that I use to transfer DTF transfers. It's basically two pieces of metal that clamp down together. The top half heats up really hot to activate the transfer's adhesive backing. The only problem is that the DTF transfer needs a specific time in the heat press, and we haven't had a good solution to tracking that time. This project is an attempt to solve that problem.
 
@@ -41,3 +42,13 @@ I also tried to figure out how to connect the SPI display to the RP2040. This is
 I also started to layout the schematic in KiCad. I haven't used KiCad in a while, so I had to figure everything out with the footprints and stuff. Here's what I have so far:
 
 ![image](https://github.com/user-attachments/assets/ccf1a4c1-99e8-469f-b21d-9d446d653918)
+
+## Day 2 (Session 2) - 5/20/2025 - 3:09 PM (30 minutes)
+OK! I just saw the 'Sourcing parts' page on the Highway docs. I literally found all the same parts on Aliexpress for a lot cheaper. Hopefully it's not a scam. I also needed some solder. Here are the new parts:
+* [XIAO RP2040](https://www.aliexpress.us/item/3256807240972277.html): $7.49
+* [2" SPI LCD Display](https://www.aliexpress.us/item/3256808536058388.html): $8.21
+* [Momentary Push Buttons (black)](https://www.aliexpress.us/item/3256804444014370.html): $2.00
+* [Limit Switches(without handle)](https://www.aliexpress.us/item/3256805965729300.html): $1.34
+* [Buzzer](https://www.aliexpress.us/item/3256802480381355.html): $2.17
+* [Solder](https://pyrodrone.com/products/tbs-solder-spool-100g): $10.99
+* New Total: $32.20
