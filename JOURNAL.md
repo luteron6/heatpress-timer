@@ -29,6 +29,7 @@ I also researched some parts, mostly on Amazon. Here's what I've found:
 * [Buzzer](https://www.amazon.com/Gikfun-Terminals-Passive-Electronic-Arduino/dp/B01GJLE5BS/): $7.28
 * [Momentary Buttons](https://www.amazon.com/Gebildet-250VAC-Prewired-Momentary-Railway/dp/B083JWJPW5/): $7.99
 * Total Estimated Costs: $51.64
+
 I also created this repo for my journal any other files. Furthermore, I tried to draw up a rough schematic for the timer:
 
 ![IMG_1361](https://github.com/user-attachments/assets/3e9e7e71-966d-4c20-bfd8-45f18f30369a)
@@ -36,13 +37,10 @@ I also created this repo for my journal any other files. Furthermore, I tried to
 ## Day 2 - 5/20/2025 - 11:28 AM (3 hours)
 Today I made a [PR](https://github.com/hackclub/highway/pull/58) to add my project to the submissions.yml file in the hackclub/highway repo.
 
-I also tried to figure out how to connect the SPI display to the RP2040. This is my first time using the SPI protocol, and there's a lot more wires than the I2C protocol. Here's what I came up with:
-
-![image](https://github.com/user-attachments/assets/2ae45ea8-3d49-4e6d-8690-1fb5ca3949ab).
-
-I also started to layout the schematic in KiCad. I haven't used KiCad in a while, so I had to figure everything out with the footprints and stuff. Here's what I have so far:
-
-![image](https://github.com/user-attachments/assets/ccf1a4c1-99e8-469f-b21d-9d446d653918)
+I also tried to figure out how to connect the SPI display to the RP2040. This is my first time using the SPI protocol, and there's a lot more wires than the I2C protocol. Here's what I came up with:<br>
+![image](https://github.com/user-attachments/assets/2ae45ea8-3d49-4e6d-8690-1fb5ca3949ab)<br>
+I also started to layout the schematic in KiCad. I haven't used KiCad in a while, so I had to figure everything out with the footprints and stuff. Here's what I have so far:<br>
+![image](https://github.com/user-attachments/assets/ccf1a4c1-99e8-469f-b21d-9d446d653918)<br>
 
 ## Day 2 (Session 2) - 5/20/2025 - 3:09 PM (30 minutes)
 OK! I just saw the 'Sourcing parts' page on the Highway docs. I literally found all the same parts on Aliexpress for a lot cheaper. Hopefully it's not a scam. I also needed some solder. Here are the new parts:
@@ -52,4 +50,4 @@ OK! I just saw the 'Sourcing parts' page on the Highway docs. I literally found 
 * [Limit Switches (with handle)](https://www.aliexpress.us/item/3256805965729300.html): $1.34
 * [Buzzer](https://www.aliexpress.us/item/3256802480381355.html): $2.17
 * [Solder](https://pyrodrone.com/products/tbs-solder-spool-100g): $10.99
-* New Total: $32.20
+* New Total: $32.20<br>
