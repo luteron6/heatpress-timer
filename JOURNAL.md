@@ -51,3 +51,17 @@ OK! I just saw the 'Sourcing parts' page on the Highway docs. I literally found 
 * [Buzzer](https://www.aliexpress.us/item/3256802480381355.html): $2.17
 * [Solder](https://pyrodrone.com/products/tbs-solder-spool-100g): $10.99
 * New Total: $32.20<br>
+
+## Day 3 - 5/21/2025 - 3:02 PM (3.5 hours)
+Today I drew up what I think I want the case to look like:<br>
+![thumbnail_IMG_1362](https://github.com/user-attachments/assets/004920bf-8ca2-43e1-9d23-5c76fc7cca23)
+
+I also edited my schematic:<br>
+![image](https://github.com/user-attachments/assets/70ed2b3e-688f-4fcc-a066-e17ae1155573)
+
+
+The vertical switch will be outside the case, connected by a wire. The buttons (to change the length of the timer) are on the top, and so is the piezo buzzer.
+I also designed a PCB to be mounted to the back of the screen (still needs a lot of work):<br>
+![image](https://github.com/user-attachments/assets/12387b42-46d8-4c92-80f0-1bd4aad6bb94)
+![image](https://github.com/user-attachments/assets/fbbf3db4-44bf-45d0-8282-09dd9364c08a)
+![image](https://github.com/user-attachments/assets/cdd44746-a6df-4215-b856-0e70713a5d28)
