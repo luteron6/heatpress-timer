@@ -8,7 +8,7 @@ created_at: "2025-05-19"
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 5.5
+Total hours so far: 11
 
 Estimated Cost: $21.21
 
@@ -65,3 +65,8 @@ I also designed a PCB to be mounted to the back of the screen (still needs a lot
 ![image](https://github.com/user-attachments/assets/12387b42-46d8-4c92-80f0-1bd4aad6bb94)
 ![image](https://github.com/user-attachments/assets/fbbf3db4-44bf-45d0-8282-09dd9364c08a)
 ![image](https://github.com/user-attachments/assets/cdd44746-a6df-4215-b856-0e70713a5d28)
+
+## Day 4 - 5/22/2025 - 5:26 PM (2 hours)
+Today I refined my PCB. I think it's almost done:<br>
+![image](https://github.com/user-attachments/assets/131b3771-1e11-4726-b0ad-1615dd544e08)<br>
+I added holes, filleted the corners, and made the buzzer pads wider. I intend to solder the buzzer directly to the PCB, and I don't know how wide the terminals are. I also routed the PCB. I don't know what size the standoffs/screws are on the display, so I'll have to see when I get it. Next I'll have to work on the case, then the code.
