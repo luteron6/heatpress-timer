@@ -8,7 +8,7 @@ created_at: "2025-05-19"
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 11
+Total hours so far: 15
 
 Estimated Cost: $21.21
 
@@ -70,3 +70,9 @@ I also designed a PCB to be mounted to the back of the screen (still needs a lot
 Today I refined my PCB. I think it's almost done:<br>
 ![image](https://github.com/user-attachments/assets/131b3771-1e11-4726-b0ad-1615dd544e08)<br>
 I added holes, filleted the corners, and made the buzzer pads wider. I intend to solder the buzzer directly to the PCB, and I don't know how wide the terminals are. I also routed the PCB. I don't know what size the standoffs/screws are on the display, so I'll have to see when I get it. Next I'll have to work on the case, then the code.
+
+## Day 5 - 5/23/2025 - 9:32 PM (4 hours)
+I decided to add my name, date, and title to the PCB. The I exported it as a STEP file for doing CAD later. I also found the STEP file for the display, so I could put them together in Onshape. Then I worked in Onshape for the rest of my time, making the case. The longest part was probably figuring out what I wanted to make the tolerances, and also the heat press inserts and screws. I'm also really new to CAD and Onshape, most of the time I was looking up tutorials and how-to guides. Anyway, I decided I will try and use M2 hardware (hopefully it's M2), but I'll buy the screen first to see what size the standoffs are. Below is my screen and PCB:<br>
+![image](https://github.com/user-attachments/assets/ec5b5d21-2e94-4f5d-9dbc-c39e19df613e)<br>
+Here's the hardware in my case:<br>
+![image](https://github.com/user-attachments/assets/e05f6ad6-a91b-4e2d-86a2-72f3ccc4f0b3)<br>
