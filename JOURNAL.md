@@ -8,7 +8,7 @@ created_at: "2025-05-19"
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 15
+Total hours so far: 17
 
 Estimated Cost: $21.21
 
@@ -76,3 +76,10 @@ I decided to add my name, date, and title to the PCB. The I exported it as a STE
 ![image](https://github.com/user-attachments/assets/ec5b5d21-2e94-4f5d-9dbc-c39e19df613e)<br>
 Here's the hardware in my case:<br>
 ![image](https://github.com/user-attachments/assets/e05f6ad6-a91b-4e2d-86a2-72f3ccc4f0b3)<br>
+
+## Day 6 - 5/25/2025 - 8:20 PM (2 hours)
+Phew! Yesterday was crazy and I couldn't find time to work on this. But I thought about it last night, and itoccurred to me that the RP2040 doesn't have wifi. So it won't have the interactive CircuitPython web interface. So I switched to the [XIAO ESP32 C6](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html). Here's the actual [Aliexpress link](https://www.aliexpress.us/item/3256807240718259.html) ($9.84). I also rerouted my PCB.<br>
+I also forgot to add a hole for the USB-C port on the XIAO. I also filleted the edges of the case and the USB-C port. Here's what I came up with:<br>
+![image](https://github.com/user-attachments/assets/02460e06-6ae9-4ded-b915-c488f37f3452)<br>
+Now for the code. It took me a while to find drivers (CircuitPython libraries) for the display. The hardest part is not being able to run the code - once I get the parts it'll be so much easier.
+
