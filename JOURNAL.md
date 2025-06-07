@@ -8,9 +8,9 @@ created_at: "2025-05-19"
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 21
+Total hours so far: 24
 
-Estimated Cost: $75.89 (including tax, shipping, and fees)
+Estimated Cost: $89.44 (including tax, shipping, and fees)
 
 I have a heat press that I use to transfer DTF transfers. It's basically two pieces of metal that clamp down together. The top half heats up really hot to activate the transfer's adhesive backing. The only problem is that the DTF transfer needs a specific time in the heat press, and we haven't had a good solution to tracking that time. This project is an attempt to solve that problem.
 
@@ -85,3 +85,11 @@ Now for the code. It took me a while to find drivers (CircuitPython libraries) f
 
 ## Day 7 - 5/30/2025 - 10:27 PM (4 hours)
 OK! I think it's done. I finished my code, created my BOM.csv, exported the gerbers, the case STEP file and STLs, and added everything to this repo. I also updated the readme.
+
+## Day 8 - 6/7/2025 - 11:23 AM (3 hours)
+I updated my README with a BOM, added my PCB to the BOM (I forgot earlier), and edited my case to add some flair. Here's pictures of my new case:
+<br><br><img src="https://github.com/user-attachments/assets/dff80192-1d91-4fd8-a98f-41bee4fac884" height=250>
+<img src="https://github.com/user-attachments/assets/ed8abd47-b5bc-434f-ad20-50d305c1c8c0" height=250>
+<img src="https://github.com/user-attachments/assets/d4eebb42-06b4-4b47-96ac-228bfb1b74f5" height=250>
+<img src="https://github.com/user-attachments/assets/0b99a52b-97c0-40d4-b6e9-54ceb0884bcc" height=250><br>
+
