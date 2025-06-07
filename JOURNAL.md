@@ -8,9 +8,9 @@ created_at: "2025-05-19"
 # Heat Press Timer
 Made by: @luteron6
 
-Total hours so far: 17
+Total hours so far: 21
 
-Estimated Cost: $21.21
+Estimated Cost: $75.89 (including tax, shipping, and fees)
 
 I have a heat press that I use to transfer DTF transfers. It's basically two pieces of metal that clamp down together. The top half heats up really hot to activate the transfer's adhesive backing. The only problem is that the DTF transfer needs a specific time in the heat press, and we haven't had a good solution to tracking that time. This project is an attempt to solve that problem.
 
@@ -83,3 +83,5 @@ I also forgot to add a hole for the USB-C port on the XIAO. I also filleted the 
 ![image](https://github.com/user-attachments/assets/02460e06-6ae9-4ded-b915-c488f37f3452)<br>
 Now for the code. It took me a while to find drivers (CircuitPython libraries) for the display. The hardest part is not being able to run the code - once I get the parts it'll be so much easier.
 
+## Day 7 - 5/30/2025 - 10:27 PM (4 hours)
+OK! I think it's done. I finished my code, created my BOM.csv, exported the gerbers, the case STEP file and STLs, and added everything to this repo. I also updated the readme.
