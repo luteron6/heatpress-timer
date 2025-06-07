@@ -3,7 +3,7 @@ The repo for my heat press timer. I created this to solve a problem with my heat
 It all revolves around this limit switch:
 <br><br><img src="https://github.com/user-attachments/assets/cac63d9a-48a2-4de3-bed0-ec543ec16629" width=400><br>
 When this limit switch closes, it triggers the timer:
-<br><br><img src="https://github.com/user-attachments/assets/cf751a43-2cc2-424e-9d4f-442f466fb078" width=400><br>
+<br><br><img src="https://github.com/user-attachments/assets/cc43fc74-d43e-43ee-9a35-628cc75663f7" width=400><br>
 The piezo is used to alert the user when the timer runs out of time. The plus and minus buttons allow the user to change the ammount of time the timer counts down from.
 # BOM
 | **Item**                | **QTY Needed** | **QTY Purchased** | **Price** | **Description**                      | **Link**                                                                                                                                                                                                                                                                                                                                                            |
