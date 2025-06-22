@@ -93,3 +93,13 @@ I updated my README with a BOM, added my PCB to the BOM (I forgot earlier), and 
 <img src="https://github.com/user-attachments/assets/d4eebb42-06b4-4b47-96ac-228bfb1b74f5" height=250>
 <img src="https://github.com/user-attachments/assets/0b99a52b-97c0-40d4-b6e9-54ceb0884bcc" height=250><br>
 
+## Day 9 - 9:16 PM (2 hours)
+Ok! We're back in business. I got some of the stuff I ordered today. Most notably, I got the ESP32-C6. I did not know it lacks native USB, so it took me a while to figure it out. I followed this [Adafruit tutorial](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/web-serial-esptool). Basically, I enabled "Experimental Web Platform features" on my Chrome-based web browser, then I flashed the [.bin](https://circuitpython.org/board/seeed_xiao_esp32c6/) file to the board using Adafruit's [web serial tool](https://circuitpython.org/board/seeed_xiao_esp32c6/). Following [these](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow) instructions, I had to install PuTTY on my laptop and connect to the ESP's serial port. Then I used these commands to initialize the wifi:
+```
+f = open('settings.toml', 'w')
+f.write('CIRCUITPY_WIFI_SSID = "wifissid"\n')
+f.write('CIRCUITPY_WIFI_PASSWORD = "wifipassword"\n')
+f.write('CIRCUITPY_WEB_API_PASSWORD = "webpassword"\n')
+f.close()
+```
+And it worked! Then I went to the IP address that was in the top of the PuTTY window, and there was the [REPL](https://learn.adafruit.com/welcome-to-circuitpython/the-repl)!
