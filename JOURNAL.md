@@ -103,3 +103,9 @@ f.write('CIRCUITPY_WEB_API_PASSWORD = "webpassword"\n')
 f.close()
 ```
 And it worked! Then I went to the IP address that was in the top of the PuTTY window, and there was the [REPL](https://learn.adafruit.com/welcome-to-circuitpython/the-repl)!
+
+## Day 10 - ~11:30 last night (3 hours)
+Yesterday was crazy, so I didn't find time to work on this project until last night. I stayed up until about 11:30, and didn't have enough energy to write this journal. So here I am today, at ~10:45 writing last night's journal.
+Anyway, I soldered the XIAO to the PCB (SMD-style), and I wired up the buzzer and one of the switches. Unfortunately, the XIAO pad on my PCB wasn't connected to the pad on the buzzer (even though the pad was there), because the net tag in KiCAD was overlapping too much. I fixed all the problems and pushed all the changes to this repo (even the gerber files).
+
+I also had to troubleshoot my code, because it used some wrong libraries and logic. I also don't have the screen yet so I can't test that. But I got the buttons and the buzzer working! My case dimensions were also off, so I had to change some of the dimensions. I reprinted the case and it should be good now.
