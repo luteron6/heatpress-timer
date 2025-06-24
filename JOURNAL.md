@@ -93,3 +93,19 @@ I updated my README with a BOM, added my PCB to the BOM (I forgot earlier), and 
 <img src="https://github.com/user-attachments/assets/d4eebb42-06b4-4b47-96ac-228bfb1b74f5" height=250>
 <img src="https://github.com/user-attachments/assets/0b99a52b-97c0-40d4-b6e9-54ceb0884bcc" height=250><br>
 
+## Day 9 - 9:16 PM (2 hours)
+Ok! We're back in business. I got some of the stuff I ordered today. Most notably, I got the ESP32-C6. I did not know it lacks native USB, so it took me a while to figure it out. I followed this [Adafruit tutorial](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/web-serial-esptool). Basically, I enabled "Experimental Web Platform features" on my Chrome-based web browser, then I flashed the [.bin](https://circuitpython.org/board/seeed_xiao_esp32c6/) file to the board using Adafruit's [web serial tool](https://circuitpython.org/board/seeed_xiao_esp32c6/). Following [these](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow) instructions, I had to install PuTTY on my laptop and connect to the ESP's serial port. Then I used these commands to initialize the wifi:
+```
+f = open('settings.toml', 'w')
+f.write('CIRCUITPY_WIFI_SSID = "wifissid"\n')
+f.write('CIRCUITPY_WIFI_PASSWORD = "wifipassword"\n')
+f.write('CIRCUITPY_WEB_API_PASSWORD = "webpassword"\n')
+f.close()
+```
+And it worked! Then I went to the IP address that was in the top of the PuTTY window, and there was the [REPL](https://learn.adafruit.com/welcome-to-circuitpython/the-repl)!
+
+## Day 10 - ~11:30 last night (3 hours)
+Yesterday was crazy, so I didn't find time to work on this project until last night. I stayed up until about 11:30, and didn't have enough energy to write this journal. So here I am today, at ~10:45 writing last night's journal.
+Anyway, I soldered the XIAO to the PCB (SMD-style), and I wired up the buzzer and one of the switches. Unfortunately, the XIAO pad on my PCB wasn't connected to the pad on the buzzer (even though the pad was there), because the net tag in KiCAD was overlapping too much. I fixed all the problems and pushed all the changes to this repo (even the gerber files).
+
+I also had to troubleshoot my code, because it used some wrong libraries and logic. I also don't have the screen yet so I can't test that. But I got the buttons and the buzzer working! My case dimensions were also off, so I had to change some of the dimensions. I reprinted the case and it should be good now.
