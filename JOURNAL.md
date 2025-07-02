@@ -109,3 +109,14 @@ Yesterday was crazy, so I didn't find time to work on this project until last ni
 Anyway, I soldered the XIAO to the PCB (SMD-style), and I wired up the buzzer and one of the switches. Unfortunately, the XIAO pad on my PCB wasn't connected to the pad on the buzzer (even though the pad was there), because the net tag in KiCAD was overlapping too much. I fixed all the problems and pushed all the changes to this repo (even the gerber files).
 
 I also had to troubleshoot my code, because it used some wrong libraries and logic. I also don't have the screen yet so I can't test that. But I got the buttons and the buzzer working! My case dimensions were also off, so I had to change some of the dimensions. I reprinted the case and it should be good now.
+
+## Day 11 - 2:09 PM (4 hours)
+It's finally done!
+I printed my case again, because there wasn't enough clearance in for the screen. Now it's taller and has mounts for the screen inside. It turns out the standoffs on the screen are M2, so I just added holes for M2 screws on the bottom of the case. I didn't have any M2 standoffs, so I had to use simple holes.
+<br><br>![image](https://github.com/user-attachments/assets/2d8c1f64-4bab-4643-a7ea-e0a952a114ba)
+
+I also reworked my code, added the IP address on the top of the screen, the password, and a little note on the bottom:
+![IMG_1562](https://github.com/user-attachments/assets/fb3c0e64-3531-44dd-be95-313eb9aa7047)
+https://github.com/user-attachments/assets/c68a85d8-97f3-4bc8-905b-5248fefed33b
+
+And it pretty much works! Thank you Hack Club for funding this project!
