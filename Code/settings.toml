@@ -1,0 +1,3 @@
+CIRCUITPY_WIFI_SSID = "da-network"
+CIRCUITPY_WIFI_PASSWORD = "da-password"
+CIRCUITPY_WEB_API_PASSWORD = "password

@@ -12,7 +12,6 @@ from adafruit_bitmap_font import bitmap_font
 
 # Load font
 font = bitmap_font.load_font("/fonts/LeagueSpartan-Bold-16.bdf")
-#font = bitmap_font.load_font("/fonts/spleen-32x64.bdf")
 
 # Import last saved timer value from time.txt
 def load_sec():
